@@ -180,8 +180,12 @@ margin: 20px auto 0 auto;
     border: 0;
     width: 50px;
 }
-.featureImage img { width: 500px; }
 
+.featureImage img {
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .feature .leftColumn .text a.emailLink,
 .feature .rightColumn .text a.emailLink
 {
