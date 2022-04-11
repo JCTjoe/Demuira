@@ -3,10 +3,18 @@ body
 {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-family: "constantia-regular", sans-serif;
+    font-size: 20px;
     background-color: white;
     color: #333;
+}
+@font-face
+ {
+    font-family: 'balhamregular';
+    src: url('balham-webfont.woff2') format('woff2'),
+         url('balham-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
 }
 .wrap 
 {
@@ -14,20 +22,21 @@ body
     padding: 0;
     width: 1000px;
 }
-h1, h2 
+h1 
 {   
     margin: 0;
     padding: 0;
-    font-family: "Georgia", normal;
-    font-weight: normal;
-}
-h1 
-{
+    font-family: "balhamregular", sans-serif;
+    color:#ff0000;
     font-size: 110px;
+    font-weight: 100;
 }
-h2 
-{
-    font-size: 30px;
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: "constantia-regular", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
 }
 li { display:inline; padding: 10px 10px; }
 .spacer.v20 { height: 20px; }
@@ -107,7 +116,7 @@ a:visited {
 }
 #topMenu .logo:hover { color: #4392F1; } 
      
-    .logo { font-family: "Georgia", bold; }
+.logo { font-family: "Balhamregular", bold; }
 #banner 
 { 
     background-image: url("../images/banner.jpg");
