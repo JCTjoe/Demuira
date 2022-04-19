@@ -1,8 +1,8 @@
 @font-face
  {
     font-family: 'balhamregular';
-    src: url('balham-webfont/balham-webfont.woff2') format('woff2'),
-         url('balham-webfont/balham-webfont.woff') format('woff');
+    src: url('webfontkit-Belham/balham-webfont.woff2') format('woff2'),
+         url('webfontkit-Belham/balham-webfont.woff') format('woff');
     font-weight: 100;
     font-style: normal;
 }
