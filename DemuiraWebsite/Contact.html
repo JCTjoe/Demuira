@@ -27,11 +27,93 @@
         </div>
         <a class="logo" href="images\Demuira4Square.jpg"></a>
         <img src="images\Demuira4Square.jpg" style="width:150px;height:150px;">
+  </div>
 </div>
 <div class="wrap">
     <div id="banner">
-        <h2 class="Logo">Contact</h2>
+        <h2 class="Logo">Contact Form</h2>
+        <br>
     </div>
 </div>
-    <p></p>
+<div id="Contact Form">
+    <style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgb(213, 213, 213);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    width: 40%;
+  border-radius: 5px;
+  background-color: #494949;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="Your name" placeholder=" First Name  Last Name ..">
+
+    <label for="email">E-mail:</label>
+    <input type="text" id="email" name="email" placeholder=" email@domain.tld ..">
+
+    <label for="subject">Message:</label>
+    <textarea id="subject" name="Message" placeholder="Type your message here.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="clear spacer v80"></div>
+    <div id="subscribe">
+        <h2>SUBSCRIBE TO OUR MAILING LIST</h2>
+        <form action="/subscribe" method="post">
+            <input name="email" type="text" placeholder="Enter your email address" />
+            <input type="submit" value="Join Now" />
+        </form>
+    </div>
+</div>
+    <div id="footer">
+        <ul>
+            <li>
+                <a href="/storeFinder">Store Finder</a>
+            </li>
+            <li>
+                <a href="/shipping">Shipping</a>
+            </li>
+            <li>
+                <a href="/FAQ">FAQ</a>
+            </li>
+        </ul>
+    </div>
+<div id="copyright">
+    <div>&copy; 2022 <span class="logo">DemuiraJewelry</span></div>
+</div>
+<script src="scripts/app.js"></script>
+<script src="scripts/home.js"></script>
+<script src="scripts/common.js"></script>
 </body>
+</html>

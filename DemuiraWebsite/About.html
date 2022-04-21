@@ -5,6 +5,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <link href="styles/global.css" rel="stylesheet" />
+    <style>
+        span.c {
+            display: block;
+            width: 150px;
+            height: 60px;
+            padding: 5px;
+            border: 2px solid rgb(130, 130, 130);    
+            background-color: rgb(80, 80, 80); 
+            
+          }
+        </style>
 </head>
 <body>
 <div id="topMenu">
@@ -27,11 +38,58 @@
         </div>
         <a class="logo" href="images\Demuira4Square.jpg"></a>
         <img src="images\Demuira4Square.jpg" style="width:150px;height:150px;">
+    </div>
 </div>
 <div class="wrap">
     <div id="banner">
-        <h2 class="Logo">About</h2>
+        <h2 class="Logo">About Demuira Jewelry</h2>
     </div>
 </div>
-    <p></p>
+
+<div>
+    <h3><span class="c">Our Goal</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">1. Establish a mission statement.</p>
+    <h3><span class="c">Our Story</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">2. Outline your company story.</p>
+    <h3><span class="c">Our Commitment</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">3. Reveal how you've evolved.</p>
+    <h3><span class="c">Our Direction</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">4. State your 'aha!' moment.</p>
+    <h3><span class="c">Our Dedication</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">5. Explain who you serve.</p>
+    <h3><span class="c">Our Specialty</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">6. Explain what you're offering them.</p>
+    <h3><span class="c">Our Success</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">7. Cite examples of who you've served.</p>
+    <h3><span class="c">Our Values</span></h3>
+    <p style="border: 2px solid black; width: 60%; margin-left: auto; margin-right: auto;">8. Describe your values.</p>
+</div>
+<div class="clear spacer v80"></div>
+    <div id="subscribe">
+        <h2>SUBSCRIBE TO OUR MAILING LIST</h2>
+        <form action="/subscribe" method="post">
+            <input name="email" type="text" placeholder="Enter your email address" />
+            <input type="submit" value="Join Now" />
+        </form>
+    </div>
+    <div id="footer">
+        <ul>
+            <li>
+                <a href="/storeFinder">Store Finder</a>
+            </li>
+            <li>
+                <a href="/shipping">Shipping</a>
+            </li>
+            <li>
+                <a href="/FAQ">FAQ</a>
+            </li>
+        </ul>
+    </div>
+<div id="copyright">
+    <div>&copy; 2022 <span class="logo">DemuiraJewelry</span></div>
+</div>
+<script src="scripts/app.js"></script>
+<script src="scripts/home.js"></script>
+<script src="scripts/common.js"></script>
 </body>
+</html>
